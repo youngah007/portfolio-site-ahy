@@ -1,9 +1,36 @@
 // testing
 
-.mycolor {
-  color: red;
+
+// Potential fonts
+// Heading: Libre Franklin
+//
+// Body: Libre Baskerville
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Libre Franklin', sans-serif;
 }
 
-.col {
-  background-color: red;
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.headline {
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
+.subline {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 100px;
 }
