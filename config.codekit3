@@ -4939,6 +4939,19 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/assets\/scss\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
