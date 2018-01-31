@@ -4939,6 +4939,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/assets\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/img\/Finalists.jpg": {
+		"ft": 16384,
+		"iS": 60110,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Finalists.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/scss\/main.scss": {
 		"aP": 0,
 		"bl": 0,

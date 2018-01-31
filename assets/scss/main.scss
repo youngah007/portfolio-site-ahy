@@ -11,15 +11,25 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    font-size: 1.5rem;
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
 }
 
+.logo {
+    background-image: url("/assets/img/finalists.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem auto;
+}
 .headline {
     padding: 100px;
     display: block;
