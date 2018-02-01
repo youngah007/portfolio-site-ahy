@@ -4949,6 +4949,27 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/desktop.png": {
+		"ft": 32768,
+		"iS": 80645,
+		"oA": 0,
+		"oAP": "\/assets\/img\/desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/down__arrow.jpg": {
+		"ft": 16384,
+		"iS": 30720,
+		"oA": 0,
+		"oAP": "\/assets\/img\/down__arrow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/Finalists.jpg": {
 		"ft": 16384,
 		"iS": 60110,
