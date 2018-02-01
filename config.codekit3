@@ -4977,6 +4977,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/two-factor.png": {
+		"ft": 32768,
+		"iS": 208815,
+		"oA": 0,
+		"oAP": "\/assets\/img\/two-factor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/scss\/main.scss": {
 		"aP": 0,
 		"bl": 0,

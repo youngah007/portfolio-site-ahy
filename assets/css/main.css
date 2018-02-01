@@ -10,13 +10,16 @@ h1 {
   display: block; }
 
 body {
-  font-family: 'Libre Franklin', sans-serif; }
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; }
 
 a {
   color: #9012FE;
   cursor: pointer; }
   a:hover {
-    color: #BD0FE1; }
+    color: #BD0FE1;
+    text-decoration: none; }
 
 .section {
   margin: 2rem 0;
@@ -33,11 +36,11 @@ a {
   column-gap: 2rem; }
 
 .name {
-  font-weight: 100; }
+  font-weight: 400; }
 
 .welcome {
   margin: 3rem 0;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   letter-spacing: .025rem; }
   .welcome__headline {
     display: block;
@@ -45,24 +48,32 @@ a {
     font-weight: 600; }
   .welcome__paragraph {
     line-height: 3rem;
-    text-indent: 2rem; }
+    text-indent: 2rem;
+    font-weight: 300; }
 
-.down {
+.down__arrow {
   background-image: url("/assets/img/down__arrow.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
-  display: block;
-  opacity: .5;
+  cursor: pointer;
+  opacity: .2;
   height: 1.75rem;
   width: 1.75rem;
-  margin: 1rem auto;
-  cursor: pointer; }
+  display: block;
+  bottom: 10px;
+  margin: 1rem auto; }
+  .down__arrow:hover {
+    opacity: 1; }
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .center-block {
-  width: 75%;
-  height: 75%;
-  margin: 1rem auto;
+  width: 100%;
+  margin: 2rem 0 1rem;
   display: block; }
 
 .caption {
@@ -91,7 +102,8 @@ a {
 
 .headline {
   display: block;
-  text-align: center; }
+  text-align: center;
+  height: 100vh; }
 
 .subline {
   font-family: 'Libre Franklin', sans-serif;
