@@ -32,6 +32,19 @@ img {
 a {
     color: #9012FE;
     cursor: pointer;
+
+    &:hover {
+        color: #BD0FE1;
+    }
+}
+
+.section {
+    margin: 2rem 0;
+    padding: 2rem 0;
+
+    &__gray {
+        background-color: #F9F9F9;
+    }
 }
 
 .two-column {
@@ -74,8 +87,15 @@ a {
     opacity: .5;
     height: 1.75rem;
     width: 1.75rem;
-    margin: 1rem auto 8rem;
+    margin: 1rem auto;
     cursor: pointer;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #EEEEEE;
+    margin: 4rem 0 0;
 }
 
 .logo {
