@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="layout" content="docs"/>
+	<title>Alerts</title>
+	<meta name="description" content="Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. &lt;!-- group: components --&gt;"/>
+	<meta name="toc" content="true"/>
+</head>
+<body>
+
+<h2 id="examples">Examples</h2>
+
+<p>Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight <strong>required</strong> contextual classes (e.g., <code>.alert-success</code>). For inline dismissal, use the <a href="#dismissing">alerts jQuery plugin</a>.</p>
+
+<p>{% example html %}
+{% for color in site.data.theme-colors %}</p>
+
+<div class="alert alert-{{ color.name }}" role="alert">
+  This is a {{ color.name }} alert—check it out!
+</div>{% endfor %}
+{% endexample %}
+
+<p>{% capture callout-include %}{% include callout-warning-color-assistive-technologies.md %}{% endcapture %}
+{{ callout-include | markdownify }}</p>
+
+<h3 id="linkcolor">Link color</h3>
+
+<p>Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
+
+<p>{% example html %}
+{% for color in site.data.theme-colors %}</p>
+
+<div class="alert alert-{{ color.name }}" role="alert">
+  This is a {{ color.name }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>{% endfor %}
+{% endexample %}
+
+<h3 id="additionalcontent">Additional content</h3>
+
+<p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
+
+<p>{% example html %}</p>
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+{% endexample %}
+
+<h3 id="dismissing">Dismissing</h3>
+
+<p>Using the alert JavaScript plugin, it&#8217;s possible to dismiss any alert inline. Here&#8217;s how:</p>
+
+<ul>
+<li>Be sure you&#8217;ve loaded the alert plugin, or the compiled Bootstrap JavaScript.</li>
+<li>If you&#8217;re building our JavaScript from source, it <a href="{{">requires <code>util.js</code></a>. The compiled version includes this.</li>
+<li>Add a dismiss button and the <code>.alert-dismissible</code> class, which adds extra padding to the right of the alert and positions the <code>.close</code> button.</li>
+<li>On the dismiss button, add the <code>data-dismiss=&quot;alert&quot;</code> attribute, which triggers the JavaScript functionality. Be sure to use the <code>&lt;button&gt;</code> element with it for proper behavior across all devices.</li>
+<li>To animate alerts when dismissing them, be sure to add the <code>.fade</code> and <code>.show</code> classes.</li>
+</ul>
+
+<p>You can see this in action with a live demo:</p>
+
+<p>{% example html %}</p>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{% endexample %}
+
+<h2 id="javascriptbehavior">JavaScript behavior</h2>
+
+<h3 id="triggers">Triggers</h3>
+
+<p>Enable dismissal of an alert via JavaScript:</p>
+
+<p>{% highlight js %}
+$(&#8216;.alert&#8217;).alert()
+{% endhighlight %}</p>
+
+<p>Or with <code>data</code> attributes on a button <strong>within the alert</strong>, as demonstrated above:</p>
+
+<p>{% highlight html %}
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+{% endhighlight %}</p>
+
+<p>Note that closing an alert will remove it from the DOM.</p>
+
+<h3 id="methods">Methods</h3>
+
+<table>
+<colgroup>
+<col />
+<col />
+</colgroup>
+
+<thead>
+<tr>
+	<th> Method </th>
+	<th> Description </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td> <code>$().alert()</code> </td>
+	<td> Makes an alert listen for click events on descendant elements which have the <code>data-dismiss=&quot;alert&quot;</code> attribute. (Not necessary when using the data&#8211;api's auto&#8211;initialization.) </td>
+</tr>
+<tr>
+	<td> <code>$().alert('close')</code> </td>
+	<td> Closes an alert by removing it from the DOM. If the <code>.fade</code> and <code>.show</code> classes are present on the element, the alert will fade out before it is removed. </td>
+</tr>
+<tr>
+	<td> <code>$().alert('dispose')</code> </td>
+	<td> Destroys an element's alert. </td>
+</tr>
+</tbody>
+</table>
+
+<p>{% highlight js %}$(&#8220;.alert&#8221;).alert(&#8216;close&#8217;){% endhighlight %}</p>
+
+<h3 id="events">Events</h3>
+
+<p>Bootstrap&#8217;s alert plugin exposes a few events for hooking into alert functionality.</p>
+
+<table>
+<colgroup>
+<col />
+<col />
+</colgroup>
+
+<thead>
+<tr>
+	<th> Event </th>
+	<th> Description </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td> <code>close.bs.alert</code> </td>
+	<td> This event fires immediately when the <code>close</code> instance method is called. </td>
+</tr>
+<tr>
+	<td> <code>closed.bs.alert</code> </td>
+	<td> This event is fired when the alert has been closed (will wait for CSS transitions to complete). </td>
+</tr>
+</tbody>
+</table>
+
+<p>{% highlight js %}
+$(&#8216;#myAlert&#8217;).on(&#8216;closed.bs.alert&#8217;, function () {
+// do something…
+})
+{% endhighlight %}</p>
+
+</body>
+</html>
+
