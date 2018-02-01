@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Franklin', sans-serif; }
 
 h1 {
@@ -8,6 +8,17 @@ h1 {
   font-size: 6rem;
   text-align: center;
   display: block; }
+
+h4 {
+  font-weight: 600; }
+
+h6 {
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .05rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2rem; }
 
 body {
   font-family: 'Libre Franklin', sans-serif;
