@@ -5,7 +5,9 @@ h1 {
   font-weight: 900;
   font-style: italic;
   letter-spacing: .2rem;
-  font-size: 6rem; }
+  font-size: 6rem;
+  text-align: center;
+  display: block; }
 
 body {
   font-family: 'Libre Franklin', sans-serif; }
@@ -17,6 +19,14 @@ img {
 a {
   color: #9012FE;
   cursor: pointer; }
+
+.two-column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem; }
 
 .name {
   font-weight: 100; }
