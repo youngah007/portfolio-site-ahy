@@ -24,10 +24,10 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-img {
-    margin: 4rem auto;
-    display: block;
-}
+// img {
+//     margin: 4rem auto;
+//     display: block;
+// }
 
 a {
     color: #9012FE;
@@ -89,6 +89,23 @@ a {
     width: 1.75rem;
     margin: 1rem auto;
     cursor: pointer;
+}
+
+.center-block {
+    width: 75%;
+    height: 75%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.caption {
+    font-size: .75rem;
+    color: gray;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+    text-align: center;
+    // margin: .5rem auto;
 }
 
 .line {
