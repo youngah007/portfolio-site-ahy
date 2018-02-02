@@ -1,10 +1,9 @@
-// testing
-
-
-// Potential fonts
-// Heading: Libre Franklin
-//
-// Body: Libre Baskerville
+body {
+    color: #383838;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Franklin', sans-serif;
@@ -24,19 +23,19 @@ h4 {
 }
 
 h6 {
-    font-size: .75rem;
+    color: #383838;
+    opacity: .9;
+    font-size: .7rem;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: .05rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
     line-height: 1.2rem;
 }
 
-body {
-    // font-family: 'Libre Baskerville', serif;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
+.mdash {
+    margin: 0 .5rem;
+    opacity: .45;
 }
 
 // img {
@@ -54,6 +53,13 @@ a {
     }
 }
 
+// .header__underline {
+//     height: 2.5px;
+//     background: #9012FE;
+//     width: 100px;
+//     border-radius: 5rem;
+//     margin-bottom: 1.5rem;
+// }
 // .content {
 //     background: black;
 //     color: white;
@@ -138,7 +144,7 @@ a {
     line-height: normal;
     display: block;
     text-align: center;
-    // margin: .5rem auto;
+    margin-bottom: 2rem;
 }
 
 .line {
@@ -169,6 +175,42 @@ a {
     font-size: 14px;
 }
 
+.flex {
+
+    &__container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    &__item {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        -moz-flex: 1;
+        -o-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+    }
+}
+
 .container {
     padding: 0 100px;
+}
+
+.pull {
+
+    &__right {
+        float: right;
+    }
+
+    &__left {
+        float: left;
+    }
 }

@@ -4938,6 +4938,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/Carta-gray.png": {
+		"ft": 32768,
+		"iS": 1846,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Carta-gray.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/desktop.png": {
 		"ft": 32768,
 		"iS": 80645,
@@ -4959,6 +4970,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/early-account-check.png": {
+		"ft": 32768,
+		"iS": 201138,
+		"oA": 0,
+		"oAP": "\/assets\/img\/early-account-check.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/early-setup-guide.png": {
+		"ft": 32768,
+		"iS": 134484,
+		"oA": 0,
+		"oAP": "\/assets\/img\/early-setup-guide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/exercising.gif": {
 		"ft": 4194304,
 		"iS": 26757199,
@@ -4975,6 +5008,38 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/max-onboarding.JPG": {
+		"ft": 16384,
+		"iS": 1349249,
+		"oA": 0,
+		"oAP": "\/assets\/img\/max-onboarding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/tender-admin.png": {
+		"ft": 32768,
+		"iS": 166593,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tender-admin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/tender-seller.png": {
+		"ft": 32768,
+		"iS": 110132,
+		"oA": 0,
+		"oAP": "\/assets\/img\/tender-seller.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/two-factor.png": {
