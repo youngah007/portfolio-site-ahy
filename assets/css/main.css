@@ -59,8 +59,14 @@ a {
   -moz-column-gap: 2rem;
   column-gap: 2rem; }
 
+.italic {
+  font-style: italic; }
+
 .name {
-  font-weight: 400; }
+  font-weight: 600;
+  letter-spacing: .04rem;
+  font-size: 1.2rem;
+  font-style: italic; }
 
 .welcome {
   margin: 3rem 0;
