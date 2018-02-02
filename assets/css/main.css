@@ -29,6 +29,11 @@ h6 {
   margin-bottom: 1.75rem;
   line-height: 1.2rem; }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
 .mdash {
   margin: 0 .5rem;
   opacity: .45; }
@@ -123,7 +128,8 @@ img {
   display: block;
   height: 5rem;
   width: 5rem;
-  margin: 1rem auto 0; }
+  margin: 1rem auto 0;
+  opacity: .85; }
 
 .headline {
   display: block;
