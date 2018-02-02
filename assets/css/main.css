@@ -2,7 +2,8 @@ body {
   color: #383838;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  line-height: 1.7rem; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Franklin', sans-serif; }
@@ -94,6 +95,11 @@ a {
   margin: 2rem 0 1rem;
   display: block; }
 
+img {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 3px !important;
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.06) !important; }
+
 .caption {
   font-size: .75rem;
   color: gray;
@@ -101,7 +107,7 @@ a {
   line-height: normal;
   display: block;
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2.5rem; }
 
 .line {
   height: 1px;
