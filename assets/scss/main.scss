@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: 600;
-    letter-spacing: .2rem;
-    font-size: 3rem;
-    text-align: center;
-    display: block;
+    font-weight: 500;
+    letter-spacing: .02rem;
+    font-size: 2.5rem;
+    // text-align: center;
+    // display: block;
 }
 
 h4 {
@@ -42,11 +42,6 @@ ul {
     margin: 0 .5rem;
     opacity: .45;
 }
-
-// img {
-//     margin: 4rem auto;
-//     display: block;
-// }
 
 a {
     color: #B5995F;
@@ -76,6 +71,48 @@ a {
 
     &__gray {
         background-color: #F9F9F9;
+        padding: 4rem 0;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        background-position: center;
+        background-image: url(/assets/img/distorted-printer-paper.jpg);
+        background-size: cover;
+    }
+
+    &__offsite {
+        color: white;
+        background-color: #F9F9F9;
+        padding: 8rem 0;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        background-position: center;
+        background-image:
+
+            linear-gradient(
+              rgba(181,153,95, 0.8),
+              rgba(181,153,95, 0.95)
+            ),
+
+            url(/assets/img/offsite.jpg);
+                background-size: cover;
+
+        .carta {
+            display: block;
+            width: 6rem;
+            opacity: .5;
+            margin: 0 0 .25rem -1rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-weight: 400;
+            opacity: .9;
+        }
     }
 }
 
@@ -87,23 +124,18 @@ a {
     font-weight: 600;
     letter-spacing: .04rem;
     font-size: 1.2rem;
+    text-align: center;
+    display: block;
 }
 
 .welcome {
     margin: 3rem 0;
-    font-size: 1.75rem;
-    letter-spacing: .025rem;
-
-    &__headline {
-        // text-align: center;
-        display: block;
-        margin-bottom: 1rem;
-        font-weight: 600;
-    }
 
     &__paragraph {
-        line-height: 3rem;
-        text-indent: 2rem;
+        font-size: 1.5rem;
+        letter-spacing: .025rem;
+        line-height: 2.5rem;
+        // text-indent: 2rem;
         font-weight: 300;
     }
 }
@@ -139,7 +171,8 @@ a {
     display: block;
 }
 
-img {
+
+.shadow {
     border: 1px solid rgba(0,0,0,0.1) !important;
     border-radius: 3px !important;
     box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.06) !important;
@@ -172,11 +205,6 @@ img {
     width: 5rem;
     margin: 1rem auto 0;
     opacity: .9;
-}
-.headline {
-    display: block;
-    text-align: center;
-    height: 100vh;
 }
 
 .subline {
@@ -232,7 +260,7 @@ img {
     cursor: pointer;
 
     &__primary {
-        background-color: #19181A;
+        background-color: #B5995F;
         color: #ffffff !important;
     }
 }

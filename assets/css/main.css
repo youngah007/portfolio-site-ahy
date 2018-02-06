@@ -9,11 +9,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Franklin', sans-serif; }
 
 h1 {
-  font-weight: 600;
-  letter-spacing: .2rem;
-  font-size: 3rem;
-  text-align: center;
-  display: block; }
+  font-weight: 500;
+  letter-spacing: .02rem;
+  font-size: 2.5rem; }
 
 h4 {
   font-weight: 600; }
@@ -47,7 +45,34 @@ a {
   margin: 2rem 0;
   padding: 2rem 0; }
   .section__gray {
-    background-color: #F9F9F9; }
+    background-color: #F9F9F9;
+    padding: 4rem 0;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-position: center;
+    background-image: url(/assets/img/distorted-printer-paper.jpg);
+    background-size: cover; }
+  .section__offsite {
+    color: white;
+    background-color: #F9F9F9;
+    padding: 8rem 0;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-position: center;
+    background-image: linear-gradient(rgba(181, 153, 95, 0.8), rgba(181, 153, 95, 0.95)), url(/assets/img/offsite.jpg);
+    background-size: cover; }
+    .section__offsite .carta {
+      display: block;
+      width: 6rem;
+      opacity: .5;
+      margin: 0 0 .25rem -1rem; }
+    .section__offsite h2 {
+      margin-bottom: 1rem; }
+    .section__offsite p {
+      font-weight: 400;
+      opacity: .9; }
 
 .italic {
   font-style: italic; }
@@ -55,19 +80,16 @@ a {
 .name {
   font-weight: 600;
   letter-spacing: .04rem;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-align: center;
+  display: block; }
 
 .welcome {
-  margin: 3rem 0;
-  font-size: 1.75rem;
-  letter-spacing: .025rem; }
-  .welcome__headline {
-    display: block;
-    margin-bottom: 1rem;
-    font-weight: 600; }
+  margin: 3rem 0; }
   .welcome__paragraph {
-    line-height: 3rem;
-    text-indent: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .025rem;
+    line-height: 2.5rem;
     font-weight: 300; }
 
 .down__arrow {
@@ -95,7 +117,7 @@ a {
   margin: 2rem 0 1rem;
   display: block; }
 
-img {
+.shadow {
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
   border-radius: 3px !important;
   box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.06) !important; }
@@ -125,11 +147,6 @@ img {
   width: 5rem;
   margin: 1rem auto 0;
   opacity: .9; }
-
-.headline {
-  display: block;
-  text-align: center;
-  height: 100vh; }
 
 .subline {
   font-family: 'Libre Franklin', sans-serif;
@@ -170,5 +187,5 @@ img {
   letter-spacing: .2rem;
   cursor: pointer; }
   .button__primary {
-    background-color: #19181A;
+    background-color: #B5995F;
     color: #ffffff !important; }

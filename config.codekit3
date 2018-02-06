@@ -4938,11 +4938,33 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/Carta-blue.png": {
+		"ft": 32768,
+		"iS": 12133,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Carta-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/Carta-gray.png": {
 		"ft": 32768,
-		"iS": 1846,
+		"iS": 11054,
 		"oA": 0,
 		"oAP": "\/assets\/img\/Carta-gray.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/Carta-white.png": {
+		"ft": 32768,
+		"iS": 8975,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Carta-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4958,6 +4980,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/distorted-printer-paper.jpg": {
+		"ft": 16384,
+		"iS": 268375,
+		"oA": 0,
+		"oAP": "\/assets\/img\/distorted-printer-paper.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/img\/down__arrow.jpg": {
@@ -5015,6 +5047,16 @@
 		"iS": 1349249,
 		"oA": 0,
 		"oAP": "\/assets\/img\/max-onboarding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/offsite.JPG": {
+		"ft": 16384,
+		"iS": 1480739,
+		"oA": 0,
+		"oAP": "\/assets\/img\/offsite.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
