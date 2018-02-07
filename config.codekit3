@@ -5013,22 +5013,22 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/early-account-check.png": {
+	"\/assets\/img\/Early-account-check.png": {
 		"ft": 32768,
-		"iS": 201138,
+		"iS": 174235,
 		"oA": 0,
-		"oAP": "\/assets\/img\/early-account-check.png",
+		"oAP": "\/assets\/img\/Early-account-check.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/early-setup-guide.png": {
+	"\/assets\/img\/Early-setup-guide.png": {
 		"ft": 32768,
-		"iS": 134484,
+		"iS": 134415,
 		"oA": 0,
-		"oAP": "\/assets\/img\/early-setup-guide.png",
+		"oAP": "\/assets\/img\/Early-setup-guide.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5075,12 +5075,12 @@
 		},
 	"\/assets\/img\/tender-admin.png": {
 		"ft": 32768,
-		"iS": 166593,
+		"iS": 163965,
 		"oA": 0,
 		"oAP": "\/assets\/img\/tender-admin.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -5090,8 +5090,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/tender-seller.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
