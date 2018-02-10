@@ -41,6 +41,9 @@ a {
     color: #D6BE8A;
     text-decoration: none; }
 
+.intro {
+  height: 100vh; }
+
 .section {
   margin: 2rem 0;
   padding: 2rem 0; }
@@ -92,20 +95,8 @@ a {
     line-height: 2.5rem;
     font-weight: 300; }
 
-.down__arrow {
-  background-image: url("/assets/img/down__arrow.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
-  cursor: pointer;
-  opacity: .7;
-  height: 1.75rem;
-  width: 1.75rem;
-  display: block;
-  bottom: 10px;
-  margin: 1rem auto; }
-  .down__arrow:hover {
-    opacity: 1; }
+.fa-chevron-down {
+  font-size: 1.5rem; }
 
 .center {
   text-align: center;
@@ -127,6 +118,7 @@ a {
   color: gray;
   font-weight: 300;
   line-height: normal;
+  font-style: italic;
   display: block;
   text-align: center;
   margin-bottom: 2.5rem; }
@@ -168,9 +160,6 @@ a {
   -o-flex: 1;
   -webkit-box-flex: 1;
   flex: 1; }
-
-.container {
-  padding: 0 100px; }
 
 .pull__right {
   float: right; }
