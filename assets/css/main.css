@@ -59,7 +59,7 @@ a {
   .section__offsite {
     color: rgba(255, 255, 255, 0.85);
     background-color: #F9F9F9;
-    padding: 8rem 0;
+    padding: 4rem 0;
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
@@ -94,9 +94,9 @@ a {
         line-height: 2.15rem; } }
     @media only screen and (min-width: 720px) {
       .welcome__paragraph {
-        font-size: 1.5rem;
-        letter-spacing: .025rem;
-        line-height: 2.5rem; } }
+        font-size: 1.35rem;
+        letter-spacing: .02rem;
+        line-height: 2.35rem; } }
     @media only screen and (min-width: 960px) {
       .welcome__paragraph {
         font-size: 1.5rem;
