@@ -1,3 +1,5 @@
+// Typography
+
 body {
     color: #373737;
     font-family: 'Libre Franklin', sans-serif;
@@ -37,21 +39,23 @@ strong {
     font-weight: 500;
 }
 
+a {
+    color: #373737;
+    border-bottom: 1px dotted #4fb3bf;
+    cursor: pointer;
+
+    &:hover {
+        color: #4fb3bf;
+        text-decoration: none;
+    }
+}
+
 .mdash {
     margin: 0 .5rem;
     opacity: .45;
 }
 
-a {
-    color: #373737;
-    border-bottom: 1px dotted #616161;
-    cursor: pointer;
-
-    &:hover {
-        color: #373737;
-        text-decoration: none;
-    }
-}
+// Sections
 
 .intro {
     height: 100vh;
@@ -83,7 +87,7 @@ a {
         background-image:
 
 
-            linear-gradient(rgba(55,55,55, 0.8), rgb(55,55,55)),
+            linear-gradient(rgba(0,86,98, 0.9), rgba(0,86,98, 0.95)),
 
             url(/assets/img/offsite.jpg);
                 background-size: cover;
@@ -103,6 +107,11 @@ a {
             font-weight: 400;
         }
     }
+}
+
+.footer {
+    margin: 2rem 0;
+    padding: 2rem 0;
 }
 
 .name {
@@ -140,8 +149,17 @@ a {
     }
 }
 
-.fa-chevron-down {
-    font-size: 1.5rem;
+.down {
+    color: #4fb3bf;
+    border-bottom: none;
+
+    &:hover {
+        color: #00838f;
+    }
+
+    .fa-chevron-down {
+        font-size: 1.5rem;
+    }
 }
 
 .center {
@@ -155,7 +173,6 @@ a {
     margin: 2rem 0 1rem;
     display: block;
 }
-
 
 .shadow {
     border: 1px solid rgba(0,0,0,0.1) !important;
@@ -196,11 +213,6 @@ a {
     opacity: .9;
 }
 
-.subline {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 14px;
-}
-
 .flex {
 
     &__container {
@@ -223,29 +235,5 @@ a {
         -o-flex: 1;
         -webkit-box-flex: 1;
         flex: 1;
-    }
-}
-
-.pull {
-
-    &__right {
-        float: right;
-    }
-
-    &__left {
-        float: left;
-    }
-}
-
-.button {
-
-    padding: 1rem 2rem;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    cursor: pointer;
-
-    &__primary {
-        background-color: #B5995F;
-        color: #ffffff !important;
     }
 }

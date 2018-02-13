@@ -29,17 +29,17 @@ h6 {
 strong {
   font-weight: 500; }
 
+a {
+  color: #373737;
+  border-bottom: 1px dotted #4fb3bf;
+  cursor: pointer; }
+  a:hover {
+    color: #4fb3bf;
+    text-decoration: none; }
+
 .mdash {
   margin: 0 .5rem;
   opacity: .45; }
-
-a {
-  color: #373737;
-  border-bottom: 1px dotted #616161;
-  cursor: pointer; }
-  a:hover {
-    color: #373737;
-    text-decoration: none; }
 
 .intro {
   height: 100vh; }
@@ -64,7 +64,7 @@ a {
     overflow: hidden;
     box-sizing: border-box;
     background-position: center;
-    background-image: linear-gradient(rgba(55, 55, 55, 0.8), #373737), url(/assets/img/offsite.jpg);
+    background-image: linear-gradient(rgba(0, 86, 98, 0.9), rgba(0, 86, 98, 0.95)), url(/assets/img/offsite.jpg);
     background-size: cover; }
     .section__offsite .carta {
       display: block;
@@ -75,6 +75,10 @@ a {
       margin-bottom: 1rem; }
     .section__offsite p {
       font-weight: 400; }
+
+.footer {
+  margin: 2rem 0;
+  padding: 2rem 0; }
 
 .name {
   font-weight: 600;
@@ -103,8 +107,13 @@ a {
         letter-spacing: .025rem;
         line-height: 2.5rem; } }
 
-.fa-chevron-down {
-  font-size: 1.5rem; }
+.down {
+  color: #4fb3bf;
+  border-bottom: none; }
+  .down:hover {
+    color: #00838f; }
+  .down .fa-chevron-down {
+    font-size: 1.5rem; }
 
 .center {
   text-align: center;
@@ -150,10 +159,6 @@ a {
   margin: 1rem auto 0;
   opacity: .9; }
 
-.subline {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 14px; }
-
 .flex__container {
   display: -webkit-box;
   display: -moz-box;
@@ -173,18 +178,3 @@ a {
   -o-flex: 1;
   -webkit-box-flex: 1;
   flex: 1; }
-
-.pull__right {
-  float: right; }
-
-.pull__left {
-  float: left; }
-
-.button {
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  cursor: pointer; }
-  .button__primary {
-    background-color: #B5995F;
-    color: #ffffff !important; }
