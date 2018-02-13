@@ -34,12 +34,11 @@ strong {
   opacity: .45; }
 
 a {
-  color: #62e6ac;
-  border-bottom: 1px dashed #62e6ac;
+  color: #373737;
+  border-bottom: 1px dotted #616161;
   cursor: pointer; }
   a:hover {
-    color: #62e6ac;
-    opacity: .7;
+    color: #373737;
     text-decoration: none; }
 
 .intro {
@@ -71,7 +70,7 @@ a {
       display: block;
       width: 6rem;
       opacity: .85;
-      margin: 0 0 .25rem -1rem; }
+      margin: 0 0 .25rem -.5rem; }
     .section__offsite h2 {
       margin-bottom: 1rem; }
     .section__offsite p {
@@ -87,10 +86,22 @@ a {
 .welcome {
   margin: 3rem 0; }
   .welcome__paragraph {
-    font-size: 1.5rem;
-    letter-spacing: .025rem;
-    line-height: 2.5rem;
     font-weight: 300; }
+    @media only screen and (min-width: 540px) {
+      .welcome__paragraph {
+        font-size: 1.25rem;
+        letter-spacing: .02rem;
+        line-height: 2.15rem; } }
+    @media only screen and (min-width: 720px) {
+      .welcome__paragraph {
+        font-size: 1.5rem;
+        letter-spacing: .025rem;
+        line-height: 2.5rem; } }
+    @media only screen and (min-width: 960px) {
+      .welcome__paragraph {
+        font-size: 1.5rem;
+        letter-spacing: .025rem;
+        line-height: 2.5rem; } }
 
 .fa-chevron-down {
   font-size: 1.5rem; }
@@ -120,8 +131,13 @@ a {
   text-align: center;
   margin-bottom: 2.5rem; }
 
+.highlight {
+  background-color: #ffffce66;
+  font-style: italic; }
+
 .line {
-  margin: 4rem 0 0; }
+  margin: 4rem 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 .logo {
   background-image: url("/assets/img/finalists.jpg");

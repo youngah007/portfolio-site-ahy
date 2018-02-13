@@ -43,13 +43,12 @@ strong {
 }
 
 a {
-    color: #62e6ac;
-    border-bottom: 1px dashed #62e6ac;
+    color: #373737;
+    border-bottom: 1px dotted #616161;
     cursor: pointer;
 
     &:hover {
-        color: #62e6ac;
-        opacity: .7;
+        color: #373737;
         text-decoration: none;
     }
 }
@@ -93,7 +92,7 @@ a {
             display: block;
             width: 6rem;
             opacity: .85;
-            margin: 0 0 .25rem -1rem;
+            margin: 0 0 .25rem -.5rem;
         }
 
         h2 {
@@ -118,11 +117,26 @@ a {
     margin: 3rem 0;
 
     &__paragraph {
-        font-size: 1.5rem;
-        letter-spacing: .025rem;
-        line-height: 2.5rem;
-        // text-indent: 2rem;
         font-weight: 300;
+
+        @media only screen and (min-width: 540px) {
+            font-size: 1.25rem;
+            letter-spacing: .02rem;
+            line-height: 2.15rem;
+            // margin-top: 18vh;
+        }
+        @media only screen and (min-width: 720px) {
+            font-size: 1.5rem;
+            letter-spacing: .025rem;
+            line-height: 2.5rem;
+            // margin-top: 22vh;
+        }
+        @media only screen and (min-width: 960px) {
+            font-size: 1.5rem;
+            letter-spacing: .025rem;
+            line-height: 2.5rem;
+            // margin-top: 24vh;
+        }
     }
 }
 
@@ -160,8 +174,14 @@ a {
     margin-bottom: 2.5rem;
 }
 
+.highlight {
+    background-color: #ffffce66;
+    font-style: italic;
+}
+
 .line {
     margin: 4rem 0 0;
+    border-top: 1px solid rgba(0,0,0,.1)
 }
 
 .logo {
