@@ -1,5 +1,5 @@
 body {
-    color: #131311;
+    color: #373737;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -23,19 +23,18 @@ h4 {
 }
 
 h6 {
-    opacity: .9;
     font-size: .7rem;
+    opacity: .9;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: .025rem;
     margin-bottom: 1.75rem;
     line-height: 1.2rem;
+    color: #373737;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+strong {
+    font-weight: 500;
 }
 
 .mdash {
@@ -44,26 +43,16 @@ ul {
 }
 
 a {
-    color: #B5995F;
+    color: #62e6ac;
+    border-bottom: 1px dashed #62e6ac;
     cursor: pointer;
 
     &:hover {
-        color: #D6BE8A;
+        color: #62e6ac;
+        opacity: .7;
         text-decoration: none;
     }
 }
-
-// .header__underline {
-//     height: 2.5px;
-//     background: #9012FE;
-//     width: 100px;
-//     border-radius: 5rem;
-//     margin-bottom: 1.5rem;
-// }
-// .content {
-//     background: black;
-//     color: white;
-// }
 
 .intro {
     height: 100vh;
@@ -80,12 +69,12 @@ a {
         overflow: hidden;
         box-sizing: border-box;
         background-position: center;
-        background-image: url(/assets/img/distorted-printer-paper.jpg);
+        background-image: url(/assets/img/offsite.jpg);
         background-size: cover;
     }
 
     &__offsite {
-        color: white;
+        color: rgba(255, 255, 255, 0.85);
         background-color: #F9F9F9;
         padding: 8rem 0;
         width: 100%;
@@ -94,10 +83,8 @@ a {
         background-position: center;
         background-image:
 
-            linear-gradient(
-              rgba(181,153,95, 0.8),
-              rgba(181,153,95, 0.95)
-            ),
+
+            linear-gradient(rgba(55,55,55, 0.8), rgb(55,55,55)),
 
             url(/assets/img/offsite.jpg);
                 background-size: cover;
@@ -105,7 +92,7 @@ a {
         .carta {
             display: block;
             width: 6rem;
-            opacity: .5;
+            opacity: .85;
             margin: 0 0 .25rem -1rem;
         }
 
@@ -115,13 +102,8 @@ a {
 
         p {
             font-weight: 400;
-            opacity: .9;
         }
     }
-}
-
-.italic {
-    font-style: italic;
 }
 
 .name {

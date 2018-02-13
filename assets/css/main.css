@@ -1,5 +1,5 @@
 body {
-  color: #131311;
+  color: #373737;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -17,28 +17,29 @@ h4 {
   font-weight: 600; }
 
 h6 {
-  opacity: .9;
   font-size: .7rem;
+  opacity: .9;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .025rem;
   margin-bottom: 1.75rem;
-  line-height: 1.2rem; }
+  line-height: 1.2rem;
+  color: #373737; }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
+strong {
+  font-weight: 500; }
 
 .mdash {
   margin: 0 .5rem;
   opacity: .45; }
 
 a {
-  color: #B5995F;
+  color: #62e6ac;
+  border-bottom: 1px dashed #62e6ac;
   cursor: pointer; }
   a:hover {
-    color: #D6BE8A;
+    color: #62e6ac;
+    opacity: .7;
     text-decoration: none; }
 
 .intro {
@@ -54,31 +55,27 @@ a {
     overflow: hidden;
     box-sizing: border-box;
     background-position: center;
-    background-image: url(/assets/img/distorted-printer-paper.jpg);
+    background-image: url(/assets/img/offsite.jpg);
     background-size: cover; }
   .section__offsite {
-    color: white;
+    color: rgba(255, 255, 255, 0.85);
     background-color: #F9F9F9;
     padding: 8rem 0;
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
     background-position: center;
-    background-image: linear-gradient(rgba(181, 153, 95, 0.8), rgba(181, 153, 95, 0.95)), url(/assets/img/offsite.jpg);
+    background-image: linear-gradient(rgba(55, 55, 55, 0.8), #373737), url(/assets/img/offsite.jpg);
     background-size: cover; }
     .section__offsite .carta {
       display: block;
       width: 6rem;
-      opacity: .5;
+      opacity: .85;
       margin: 0 0 .25rem -1rem; }
     .section__offsite h2 {
       margin-bottom: 1rem; }
     .section__offsite p {
-      font-weight: 400;
-      opacity: .9; }
-
-.italic {
-  font-style: italic; }
+      font-weight: 400; }
 
 .name {
   font-weight: 600;
