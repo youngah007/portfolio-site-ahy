@@ -104,7 +104,6 @@ a {
 
 .name {
     font-weight: 600;
-    letter-spacing: .04rem;
     font-size: 1.2rem;
     text-align: center;
     display: block;
@@ -224,18 +223,18 @@ a {
 }
 
 .button {
-    background: #2A64F8;
-    color: #fff;
+    border: 1px dotted #2A64F8;
+    color: #2A64F8;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
-    padding: 30px;
+    padding: 1rem;
     margin: 1rem;
 
     &:hover {
-        color: #00838f;
+        color: #2A64F8;
     }
 }
