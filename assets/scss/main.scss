@@ -223,18 +223,46 @@ a {
 }
 
 .button {
-    border: 1px dotted #2A64F8;
-    color: #2A64F8;
-    width: 100px;
-    height: 100px;
     border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 1rem;
+    border-bottom: 4px solid #7591ff;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 5px 1px;
+    background-color: #2A64F8;
+    color: #fff;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 3rem;
     margin: 1rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+    &__linkedin::after {
+        content: "\f0e1";
+        line-height: 2.3;
+    }
+
+    &__email::after {
+        content: "\f0e0";
+        line-height: 2.7;
+        font-size: 1rem;
+    }
+
+    &__up::after {
+        content: "\f077";
+        line-height: 2.25;
+    }
+
+    &__down::after {
+        content: "\f078";
+        line-height: 2.25;
+    }
 
     &:hover {
-        color: #2A64F8;
+        color: #fff;
+        border-bottom: 4px solid #7591ff;
     }
+
 }
