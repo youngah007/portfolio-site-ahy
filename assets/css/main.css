@@ -49,7 +49,7 @@ a {
     overflow: hidden;
     box-sizing: border-box;
     background-position: center;
-    background-image: url(assets/img/offsite.jpg);
+    background-image: url(/assets/img/offsite.JPG);
     background-size: cover; }
   .section__offsite {
     color: rgba(255, 255, 255, 0.9);
@@ -58,7 +58,7 @@ a {
     overflow: hidden;
     box-sizing: border-box;
     background-position: center;
-    background-image: linear-gradient(rgba(42, 100, 248, 0.75), rgba(42, 100, 248, 0.75)), url(assets/img/offsite.jpg);
+    background-image: linear-gradient(rgba(42, 100, 248, 0.75), rgba(42, 100, 248, 0.75)), url(/assets/img/offsite.JPG);
     background-size: cover; }
     .section__offsite .carta {
       display: block;
@@ -140,7 +140,7 @@ a {
   border-top: 1px solid rgba(0, 0, 0, 0.05); }
 
 .logo {
-  background-image: url(assets/img/finalists.jpg);
+  background-image: url(/assets/img/Finalists.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;

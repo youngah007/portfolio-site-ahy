@@ -64,7 +64,7 @@ a {
         overflow: hidden;
         box-sizing: border-box;
         background-position: center;
-        background-image: url(assets/img/offsite.jpg);
+        background-image: url(/assets/img/offsite.JPG);
         background-size: cover;
     }
 
@@ -80,7 +80,7 @@ a {
 
             linear-gradient(rgba(42,100,248, 0.75), rgba(42,100,248, 0.75)),
 
-            url(assets/img/offsite.jpg);
+            url(/assets/img/offsite.JPG);
                 background-size: cover;
 
         .carta {
@@ -185,7 +185,7 @@ a {
 }
 
 .logo {
-    background-image: url(assets/img/finalists.jpg);
+    background-image: url(/assets/img/Finalists.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
